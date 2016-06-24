@@ -1,0 +1,13 @@
+git config --global user.name "Sudhakar"
+git config --global user.email "sudhakar_balakrishnan@aol.com"
+git remote add origin git@gitlab.com:Sudhakar7777777/SampleBook.git
+git add .
+git commit
+git push -u origin master
+
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa -C "sudhakar_balakrishnan@yahoo.com"
+cat ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
+git push -u origin master
+
